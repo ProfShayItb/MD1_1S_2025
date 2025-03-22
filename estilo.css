@@ -1,0 +1,35 @@
+/*Seletores
+    tag
+    id #
+    class .
+*/
+
+p{
+    background-color: yellow;/*Cor de fundo*/
+}
+
+/*Selecionando por id #*/
+
+#txtsobre{
+    background-color: rgb(27, 97, 27);
+}
+
+#fff
+
+/*Selecionando por class .*/
+
+.classeparagrafo{
+   background-color:red;
+}
+
+ body{
+    
+     
+     /*shorthand - jeito curto, abreviado de escrever algo
+     background: cor url repeat attachament position;
+     */
+     
+     background: #fff url(https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/03/visao-aproximada-da-lua.jpg) no-repeat scroll right top;
+     
+     background-size: 100px;/*Tamanho da imagem de fundo(x,y) px, %, em, rem*/
+    }
